@@ -1,0 +1,43 @@
+[debug] [2024-04-24T14:19:33.251Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T14:19:33.253Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\Desktop\SE-As11\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-24T14:19:33.253Z] CLI Version:   13.7.4
+[debug] [2024-04-24T14:19:33.254Z] Platform:      win32
+[debug] [2024-04-24T14:19:33.254Z] Node Version:  v18.17.1
+[debug] [2024-04-24T14:19:33.255Z] Time:          Wed Apr 24 2024 21:19:33 GMT+0700 (เวลาอินโดจีน)
+[debug] [2024-04-24T14:19:33.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T14:19:33.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T14:19:33.373Z] > authorizing via signed-in user (kongvijite4345@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-04-24T14:19:33.385Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-24T14:19:33.385Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-24T14:19:33.386Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project githubactionpractice-itliemai. This may result in unexpected behavior. 
+[debug] [2024-04-24T14:19:33.398Z] [hub] writing locator at C:\Users\User\AppData\Local\Temp\hub-githubactionpractice-itliemai.json
+[debug] [2024-04-24T14:19:33.416Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/sites 
+[debug] [2024-04-24T14:19:34.210Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/sites 200
+[debug] [2024-04-24T14:19:34.210Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/sites {"sites":[{"name":"projects/githubactionpractice-itliemai/sites/githubactionpractice-itliemai","defaultUrl":"https://githubactionpractice-itliemai.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-24T14:19:34.211Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/webApps/-/config [none]
+[debug] [2024-04-24T14:19:34.954Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/webApps/-/config 200
+[debug] [2024-04-24T14:19:34.955Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai/webApps/-/config {"projectId":"githubactionpractice-itliemai","storageBucket":"githubactionpractice-itliemai.appspot.com","apiKey":"AIzaSyCzncb8x9HZTl2Bn8k5H2uX3PSV39HR89s","authDomain":"githubactionpractice-itliemai.firebaseapp.com","messagingSenderId":"758840464619"}
+[debug] [2024-04-24T14:19:34.961Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai [none]
+[debug] [2024-04-24T14:19:35.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai 200
+[debug] [2024-04-24T14:19:35.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice-itliemai {"projectId":"githubactionpractice-itliemai","projectNumber":"758840464619","displayName":"GitHubActionPractice-ItLieMai","name":"projects/githubactionpractice-itliemai","resources":{"hostingSite":"githubactionpractice-itliemai"},"state":"ACTIVE","etag":"1_cc710f35-ce7c-4465-92b9-7c3d7362b33d"}
+[info] i  hosting[githubactionpractice-itliemai]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[githubactionpractice-itliemai]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
